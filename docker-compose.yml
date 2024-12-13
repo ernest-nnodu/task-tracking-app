@@ -1,0 +1,15 @@
+services:
+  #PostgreSQL database
+  db:
+    #Docker image of postgres -- using the latest
+    image: postgres:latest
+
+    #ports to expost the host container
+    #5432 is the default postgreSQL port
+    ports:
+      - "5432:5432"
+
+    restart: always
+
+    environment:
+      POSTGRES_PASSWORD: testPassword
