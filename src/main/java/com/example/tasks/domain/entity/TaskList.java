@@ -1,4 +1,4 @@
-package com.example.tasks.entity;
+package com.example.tasks.domain.entity;
 
 
 import jakarta.persistence.*;
